@@ -1,2 +1,8 @@
-package class1.ex;public class ProductOrder {
+package class1.ex;
+
+public class ProductOrder {
+    String ProductName;
+    int price;
+    int quantity;
+
 }
