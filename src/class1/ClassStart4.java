@@ -25,4 +25,7 @@ public class ClassStart4 {
         System.out.println("name " + students[1] .name + " age " + students[1] .age + " graade " + students[1] .grade );
 
     }
+
+    public static class Student {
+    }
 }

@@ -2,6 +2,8 @@ package class1.ex;
 
 public class ProductOderMain {
     public static void main(String[] args) {
+
+
         ProductOrder dubu = new ProductOrder();
         dubu.ProductName = "두부";
         dubu.price = 2000;
