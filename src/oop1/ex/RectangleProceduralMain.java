@@ -2,7 +2,7 @@ package oop1.ex;
 
 public class RectangleProceduralMain {
     public static void main(String[] args) {
-
+        // 절차지향 프로그래밍
         int width = 5;
         int height = 8;
         int area = calculateArea(width, height);

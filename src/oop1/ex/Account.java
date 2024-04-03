@@ -1,7 +1,7 @@
 package oop1.ex;
 
 public class Account {
-    int balance; // 작액
+    int balance; // 잔액
 
     void dposit (int amount){
         balance += amount;
