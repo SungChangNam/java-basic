@@ -1,12 +1,14 @@
 package static2.ex;
 
+import static static2.ex.MathArrayUtils.*;
+
 public class MathArrayUtiliIsMain {
     public static void main(String[] args) {
         int[] values = {1, 2, 3, 4,5};
-        System.out.println("sum= "+MathArrayUtils.sum(values));
-        System.out.println("avg= "+MathArrayUtils.avg(values));
-        System.out.println("min= "+MathArrayUtils.min(values));
-        System.out.println("max= "+MathArrayUtils.max(values));
+        System.out.println("sum= "+ sum(values));
+        System.out.println("avg= "+ avg(values));
+        System.out.println("min= "+ min(values));
+        System.out.println("max= "+ max(values));
 
     }
 }
