@@ -15,4 +15,6 @@ public class Movie extends Item {
         super.print();
         System.out.println("- director:  "+director +", actor :"+actor);
     }
+
+
 }
